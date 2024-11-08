@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Weather Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 align="center"> <u>    Weather Project  </u></h1>
+    <hr>
+</header>    
+    
+<nav id="navigation">
+   <a href="#" id="home"> HOME   </a> &nbsp;&nbsp;
+   <a href="host.html" id="host"> DEVELOPER   </a>&nbsp;&nbsp;
+   <button id="mode"> MODE  </button>
+</nav>
+
+    <ul><font size="4" color="green">
+        <li>STEP 1 : Go to dropdown list and choose ur city.  </li>
+        <li>STEP 2 : After selecting the city click on search search button.</li>
+    </font></ul>
+
+    <hr><br>
+
+  <!--  <div>
+        <label for="cities">CITY LIST :</label>&nbsp;&nbsp;
+
+        <select name="cities" id="cities">
+            <option value="#">choose ur city</option>
+            <option value="AHMEDABAD">AHMEDABAD</option>
+            <option value="BARODA">BARODA</option>
+            <option value="SURAT">SURAT</option>
+        </select>
+    </div> -->
+
+    <br><br>
+		<label>City : </label>
+		<input type="text" id="nameOfCity"  placeholder="Type city name here"></input>	
+
+    <button id="search-button">SEARCH</button>
+
+	<div id="result" align="center">
+		<h2 ><font color="magenta"><u>City:</u></font></h2><h2 id = "cityLocation"></h2>
+		<h2><font color="magenta"><u>Temperature in Celcius:</u></font></h2><h2 id ="temp"></h2>
+		<h2><font color="magenta"><u>Rain possibility in %:</u></font></h2><h2 id = "rain"></h2>
+		
+	</div>
+
+
+
+  <script src="script.js"></script> 
+    
+    
+</body>
+</html>

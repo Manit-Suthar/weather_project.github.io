@@ -1,0 +1,21 @@
+.dark{
+    background-color: black;
+	color:white;
+}
+.light{
+    background-color: white;
+	color: black;
+}
+
+#home{
+	/* background-color:rgba(129, 159, 179, 0.741);
+	*/color:rgb(21, 107, 80);
+}
+#host{
+	/* background-color:rgb(129, 159, 179);
+	*/color:rgb(21, 107, 80);
+}
+#mode{
+	background-color:rgb(129, 159, 179);
+	color:rgb(4, 19, 62);
+}
