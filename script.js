@@ -6,7 +6,7 @@ let rain=document.getElementById("rain");
 
 
 async function getData(cityName){
-	const promise = await fetch(`http://api.weatherapi.com/v1/current.json?key=ff2c8ba441ac45e189694017241910&q=${cityName}&aqi=yes`);
+	const promise = await fetch(`https://api.weatherapi.com/v1/current.json?key=ff2c8ba441ac45e189694017241910&q=${cityName}&aqi=yes`);
 	return await promise.json();
 }
 
